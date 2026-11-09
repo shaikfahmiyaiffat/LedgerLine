@@ -19,9 +19,10 @@ app.use(helmet());
 // CORS configuration
 app.use(cors({
     origin: [
-        "http://localhost:5173",
-        "http://localhost:5175"
-    ],
+    "http://localhost:5173",
+    "http://localhost:5175",
+    "https://ledgerline-frontend-five.vercel.app"
+],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: [
         "Content-Type",
