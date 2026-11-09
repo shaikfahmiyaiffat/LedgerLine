@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 
-const API_URL = "http://localhost:5001/api";
+const API_URL = "https://ledger-line-gamma.vercel.app/api";
 
 function App() {
   const [isLogin, setIsLogin] = useState(true);
